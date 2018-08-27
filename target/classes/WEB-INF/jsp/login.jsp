@@ -10,7 +10,7 @@
 <body>
 <form name='frm' action='valid' method='POST'>
 <table border='5' align='center'>
- <tr><td>username</td>
+ <tr><td>username123</td>
  <td><input type='text' name='user' value=''/>
  <h5 style="color:red">${umsg}</h5>
  </td></tr>
