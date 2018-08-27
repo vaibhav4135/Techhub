@@ -9,7 +9,7 @@ public class Login {
 	@Size(max = 20, min = 3, message = "{un.user.empty}") 
 	private String user;
 
-	public String getUser() {
+	public String getuser() {
 		return user;
 	}
 
