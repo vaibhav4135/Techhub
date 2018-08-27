@@ -15,6 +15,8 @@ import org.springframework.web.servlet.ModelAndView;
 @Controller
 @SessionAttributes("u")
 public class ctrl {
+
+	
 	@RequestMapping("/")
 	public String First(Locale locale,Model model) {
 		  model.addAttribute("un", new Login());
@@ -24,8 +26,14 @@ public class ctrl {
 	@RequestMapping("/view")
 	public String viewData() {
 		return "view";
+		
 	}
 
+	@RequestMapping("/login")
+	public String First1(Locale locale,Model model) {
+		  model.addAttribute("un", new Login());
+		return "login";
+	}
 	@RequestMapping("/valid")
 	public String validate(@ModelAttribute("un") @Valid Login login, BindingResult result, Model model) {
 
