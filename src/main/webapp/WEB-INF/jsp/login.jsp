@@ -14,7 +14,7 @@
  <td><input type='text' name='user' value=''/>
  <h5 style="color:red">${umsg}</h5>
  </td></tr>
- <tr><td>PASSWORD</td>
+ <tr><td>Password</td>
  <td><input type='text' name='pass' value=''/>
  </td></tr>
  <tr>
